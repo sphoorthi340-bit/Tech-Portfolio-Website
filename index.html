@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shashank Sphoorthi — AIoT & Intelligent Systems Engineer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=JetBrains+Mono:wght@300;400;500&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <div class="nav-logo">ss<span>://</span>sphoorthi</div>
+    <ul class="nav-links">
+      <li><a href="#about">about</a></li>
+      <li><a href="#projects">projects</a></li>
+      <li><a href="#skills">skills</a></li>
+      <li><a href="#roadmap">roadmap</a></li>
+    </ul>
+    <a href="mailto:Sphoorthi340@gmail.com" class="nav-cta">get in touch</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <canvas id="hero-canvas"></canvas>
+  <div class="hero-grid-overlay"></div>
+  <div class="hero-content">
+    <div class="hero-tag">AIoT &amp; Intelligent Systems Engineer</div>
+    <h1 class="hero-name">
+      <span class="first">Shashank</span><br>
+      <span class="last">Sphoorthi</span>
+    </h1>
+    <div class="hero-typewriter"><span id="typed-text"></span><span class="cursor">|</span></div>
+    <p class="hero-desc">
+      3rd-year ECE undergraduate at <strong>Vasavi College of Engineering</strong>, Hyderabad.
+      I build systems that <strong>sense, reason, and act at the edge</strong> — where AI meets
+      hardware and the internet disappears.
+    </p>
+    <div class="hero-btns">
+      <a href="#projects" class="btn-primary">View Projects</a>
+      <a href="https://www.linkedin.com/in/shashank-sphoorthi/" target="_blank" class="btn-secondary">LinkedIn ↗</a>
+    </div>
+    <div class="hero-stats">
+      <div class="hero-stat"><div class="num">8<span>.2</span></div><div class="label">CGPA</div></div>
+      <div class="hero-stat"><div class="num">4<span>+</span></div><div class="label">Projects Built</div></div>
+      <div class="hero-stat"><div class="num">1<span>st</span></div><div class="label">Hackathon — Gemma 4 Good</div></div>
+      <div class="hero-stat"><div class="num">10<span>/10</span></div><div class="label">Expo Score</div></div>
+    </div>
+  </div>
+  <div class="hero-scroll">
+    <div class="scroll-line"></div>
+    scroll
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-text fade-up">
+        <div class="section-eyebrow">// about me</div>
+        <h2 class="section-title">Hardware that <span>thinks</span>.</h2>
+        <div class="divider" style="margin-bottom:28px"></div>
+        <p>I'm an Electronics &amp; Communication Engineering student with a single high-conviction belief: <em>the most impactful AI runs on a ₹600 microcontroller in a flood-hit village with no internet</em> — not in a data centre.</p>
+        <p>My work sits at the intersection of <strong>embedded systems, edge AI, and IoT security</strong>. I've built encrypted wireless chat terminals on ESP32, an offline-first disaster response system powered by Gemma 4, and analog signal conditioning pipelines from first principles.</p>
+        <p>I'm actively looking for <strong>embedded AI / IoT internships</strong> for Summer 2026. If you're building at the edge of hardware and intelligence — let's talk.</p>
+        <div class="about-highlight">
+          <strong>// currently focused on</strong>
+          Flagship AIoT project · ESP32 mesh + FPGA edge processing · LoRaWAN architecture · TensorFlow Lite on microcontrollers
+        </div>
+      </div>
+      <div class="fade-up delay-1">
+        <div class="stat-cards">
+          <div class="stat-card">
+            <div class="sc-num">B.Tech</div>
+            <div class="sc-label">Electronics &amp; Communication</div>
+            <div class="sc-sub">Vasavi College of Eng, Hyderabad</div>
+          </div>
+          <div class="stat-card">
+            <div class="sc-num">8.2</div>
+            <div class="sc-label">CGPA (4th Semester)</div>
+            <div class="sc-sub">Class of 2028</div>
+          </div>
+          <div class="stat-card">
+            <div class="sc-num">AIoT</div>
+            <div class="sc-label">Identity &amp; Focus Domain</div>
+            <div class="sc-sub">Edge AI + Embedded + IoT Security</div>
+          </div>
+          <div class="stat-card wide">
+            <div class="sc-num" style="font-size:20px;color:var(--text)">Vasavi College of Engineering · Hyderabad, India</div>
+            <div class="sc-label" style="margin-top:8px">📍 Based in Hyderabad · Open to relocation for internships globally</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="container">
+    <div class="section-header fade-up">
+      <div class="section-eyebrow">// featured work</div>
+      <h2 class="section-title">Systems I've <span>engineered</span>.</h2>
+      <div class="divider"></div>
+    </div>
+
+    <!-- FEATURED: SAHAYAK -->
+    <div class="project-card featured fade-up" style="margin-bottom:24px">
+      <div>
+        <div style="display:flex;gap:8px;flex-wrap:wrap">
+          <span class="project-badge badge-hackathon">🏆 Kaggle × Google DeepMind</span>
+          <span class="project-badge badge-hardware">ESP32 Mesh</span>
+        </div>
+        <div class="project-title">Sahayak (सहायक)</div>
+        <div class="project-sub">Offline-First AIoT Disaster Response System · 2026</div>
+        <div class="project-desc">
+          Built for the Gemma 4 Good Hackathon — a full-stack AIoT system that keeps communities connected when cellular infrastructure collapses. Inspired by the 2024 Wayanad Landslides where towers failed within minutes. Targets <strong style="color:var(--text)">640,000+ underserved Indian villages</strong> lacking redundant cellular coverage.
+        </div>
+        <div class="arch-block">
+          <div class="arch-title">// SYSTEM ARCHITECTURE</div>
+[ESP32 Field Nodes] ──ESP-NOW Mesh──▶ [ESP32 Base Station]<br>
+&nbsp;&nbsp;&nbsp;&nbsp;OLED + Keypad &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Serial / USB<br>
+&nbsp;&nbsp;&nbsp;&nbsp;(hardware fallback) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[FastAPI Backend] — SQLite<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[React PWA] EN / हिंदी / తెలుగు<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Gemma 4 E4B via Ollama — LOCAL, OFFLINE, NDMA-grounded]
+        </div>
+        <div class="tech-tags">
+          <span class="tech-tag core">ESP32 / ESP-NOW</span>
+          <span class="tech-tag core">Gemma 4 E4B</span>
+          <span class="tech-tag core">FastAPI</span>
+          <span class="tech-tag core">React PWA</span>
+          <span class="tech-tag">Ollama</span>
+          <span class="tech-tag">SQLite</span>
+          <span class="tech-tag">Arduino C++</span>
+          <span class="tech-tag">RTOS</span>
+          <span class="tech-tag">Multilingual NLP</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/sphoorthi340-bit/sahayak" target="_blank" class="proj-link gh">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+            Source
+          </a>
+          <a href="https://youtu.be/fTYM_cO4mZo" target="_blank" class="proj-link demo">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.69a8.27 8.27 0 004.84 1.55V6.79a4.85 4.85 0 01-1.07-.1z"/></svg>
+            Demo Video
+          </a>
+        </div>
+      </div>
+      <div class="project-visual">
+        <div style="font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--cyan);margin-bottom:12px;letter-spacing:.08em">// MESH NETWORK VISUALIZATION</div>
+        <div class="mesh-diagram">
+          <svg id="mesh-svg" viewBox="0 0 340 200" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <filter id="glow"><feGaussianBlur stdDeviation="2" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+            </defs>
+            <!-- Connections -->
+            <line x1="170" y1="50" x2="60" y2="120" stroke="#00c8ff" stroke-width=".7" stroke-opacity=".3"/>
+            <line x1="170" y1="50" x2="130" y2="130" stroke="#00c8ff" stroke-width=".7" stroke-opacity=".3"/>
+            <line x1="170" y1="50" x2="210" y2="130" stroke="#00c8ff" stroke-width=".7" stroke-opacity=".3"/>
+            <line x1="170" y1="50" x2="280" y2="120" stroke="#00c8ff" stroke-width=".7" stroke-opacity=".3"/>
+            <line x1="60" y1="120" x2="130" y2="130" stroke="#00c8ff" stroke-width=".5" stroke-opacity=".2"/>
+            <line x1="130" y1="130" x2="210" y2="130" stroke="#00c8ff" stroke-width=".5" stroke-opacity=".2"/>
+            <line x1="210" y1="130" x2="280" y2="120" stroke="#00c8ff" stroke-width=".5" stroke-opacity=".2"/>
+            <!-- Base station (center top) -->
+            <rect x="150" y="30" width="40" height="40" rx="8" fill="#00c8ff" fill-opacity=".12" stroke="#00c8ff" stroke-width="1.2" filter="url(#glow)"/>
+            <text x="170" y="53" text-anchor="middle" font-family="JetBrains Mono" font-size="8" fill="#00c8ff">BASE</text>
+            <!-- Field nodes -->
+            <circle cx="60" cy="120" r="14" fill="#0d1117" stroke="#a855f7" stroke-width="1.2"/>
+            <text x="60" y="124" text-anchor="middle" font-family="JetBrains Mono" font-size="7" fill="#a855f7">N1</text>
+            <circle cx="130" cy="130" r="14" fill="#0d1117" stroke="#a855f7" stroke-width="1.2"/>
+            <text x="130" y="134" text-anchor="middle" font-family="JetBrains Mono" font-size="7" fill="#a855f7">N2</text>
+            <circle cx="210" cy="130" r="14" fill="#0d1117" stroke="#a855f7" stroke-width="1.2"/>
+            <text x="210" y="134" text-anchor="middle" font-family="JetBrains Mono" font-size="7" fill="#a855f7">N3</text>
+            <circle cx="280" cy="120" r="14" fill="#0d1117" stroke="#a855f7" stroke-width="1.2"/>
+            <text x="280" y="124" text-anchor="middle" font-family="JetBrains Mono" font-size="7" fill="#a855f7">N4</text>
+            <!-- Labels -->
+            <text x="170" y="82" text-anchor="middle" font-family="JetBrains Mono" font-size="7.5" fill="#64748b">ESP-NOW · MAC Layer · No Router</text>
+            <text x="60" y="145" text-anchor="middle" font-family="JetBrains Mono" font-size="7" fill="#64748b">OLED</text>
+            <text x="280" y="145" text-anchor="middle" font-family="JetBrains Mono" font-size="7" fill="#64748b">Keypad</text>
+            <!-- Pulse animation -->
+            <circle cx="170" cy="50" r="20" fill="none" stroke="#00c8ff" stroke-width=".5" stroke-opacity=".5">
+              <animate attributeName="r" values="20;40" dur="2s" repeatCount="indefinite"/>
+              <animate attributeName="stroke-opacity" values="0.5;0" dur="2s" repeatCount="indefinite"/>
+            </circle>
+            <!-- Gemma label -->
+            <rect x="100" y="162" width="140" height="22" rx="4" fill="#07090f" stroke="#10b981" stroke-width=".8"/>
+            <text x="170" y="177" text-anchor="middle" font-family="JetBrains Mono" font-size="7.5" fill="#10b981">Gemma 4 E4B · Local · Offline</text>
+          </svg>
+        </div>
+        <div class="kpi-row">
+          <div class="kpi"><div class="kpi-val">~$7</div><div class="kpi-label">per node</div></div>
+          <div class="kpi"><div class="kpi-val">15×</div><div class="kpi-label">cheaper than traditional</div></div>
+          <div class="kpi"><div class="kpi-val">3</div><div class="kpi-label">languages supported</div></div>
+          <div class="kpi"><div class="kpi-val">0</div><div class="kpi-label">internet required</div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ROW 2 -->
+    <div class="projects-row2">
+
+      <!-- ESP32 ENCRYPTED CHAT -->
+      <div class="project-card fade-up">
+        <span class="project-badge badge-award">10/10 Project Expo</span>
+        <div class="project-title" style="font-size:18px">ESP32 Encrypted<br>Chat Terminal</div>
+        <div class="project-sub">AES-128 + ChaCha20 · ESP-NOW · 2025–26</div>
+        <div class="project-desc" style="font-size:14px">
+          Dual-layer cryptographic pipeline on two ESP32 nodes. Runtime hardware-switch toggles between AES-128-ECB (via mbedTLS hardware accelerator) and ChaCha20 (software ARX). Benchmarks logged live per packet.
+        </div>
+        <div class="arch-block" style="font-size:10.5px">
+          <div class="arch-title">// BENCHMARK RESULTS</div>
+          AES-128-ECB (HW): ~46 µs encrypt<br>
+          ChaCha20 (SW ARX): ~6 µs baseline<br>
+          Transport: ESP-NOW channel 0<br>
+          Input: T9 keypad → OLED output
+        </div>
+        <div class="tech-tags">
+          <span class="tech-tag core">ESP32</span>
+          <span class="tech-tag core">mbedTLS</span>
+          <span class="tech-tag core">AES-128</span>
+          <span class="tech-tag">ChaCha20</span>
+          <span class="tech-tag">ESP-NOW</span>
+          <span class="tech-tag">C++</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/sphoorthi340-bit/esp32-secure-communication" target="_blank" class="proj-link gh">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+            Source
+          </a>
+        </div>
+      </div>
+
+      <!-- SIGNAL CONDITIONING -->
+      <div class="project-card fade-up delay-1">
+        <span class="project-badge badge-hardware">Analog Hardware</span>
+        <div class="project-title" style="font-size:18px">Analog Signal<br>Conditioning Pipeline</div>
+        <div class="project-sub">LM35 → LM358 → ADC → OLED · 2025</div>
+        <div class="project-desc" style="font-size:14px">
+          Four-stage precision pipeline solving direct ADC digitization of 10 mV/°C LM35 output. Non-inverting amp, RC low-pass filter, 12-bit ESP32 ADC, and I²C OLED display. Full signal integrity engineering.
+        </div>
+        <div class="arch-block" style="font-size:10.5px">
+          <div class="arch-title">// PIPELINE STAGES</div>
+          Transduction → Amplification (Av=1+R1/Rf)<br>
+          → RC Low-Pass Filter → 12-bit ADC<br>
+          → Scaled °C → SSD1306 OLED
+        </div>
+        <div class="tech-tags">
+          <span class="tech-tag core">ESP32</span>
+          <span class="tech-tag core">LM35 / LM358</span>
+          <span class="tech-tag">I²C / SSD1306</span>
+          <span class="tech-tag">Arduino C++</span>
+          <span class="tech-tag">Signal Processing</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/sphoorthi340-bit/opamp-signal-conditioning" target="_blank" class="proj-link gh">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+            Source
+          </a>
+        </div>
+      </div>
+
+      <!-- PROJECT REBUILD -->
+      <div class="project-card fade-up delay-2">
+        <span class="project-badge badge-software">Flutter · Firebase</span>
+        <div class="project-title" style="font-size:18px">Project Rebuild</div>
+        <div class="project-sub">Fitness & Mental Health Architecture · 2025</div>
+        <div class="project-desc" style="font-size:14px">
+          Component-driven Flutter app with Cloud Firestore real-time sync. Strict domain separation across 5 tabs. Sustained 60fps under heavy DOM manipulation with custom glassmorphism dark theme.
+        </div>
+        <div class="arch-block" style="font-size:10.5px">
+          <div class="arch-title">// KEY METRICS</div>
+          60fps sustained on Android<br>
+          5 decoupled feature modules<br>
+          Firestore localized snapshots<br>
+          Auth + Analytics + Journaling
+        </div>
+        <div class="tech-tags">
+          <span class="tech-tag core">Flutter / Dart</span>
+          <span class="tech-tag core">Firebase</span>
+          <span class="tech-tag">Firestore</span>
+          <span class="tech-tag">fl_chart</span>
+          <span class="tech-tag">State Management</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/sphoorthi340-bit/Rebuild-Transformation-Tracker" target="_blank" class="proj-link gh">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+            Source
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="container">
+    <div class="section-header fade-up">
+      <div class="section-eyebrow">// tech stack</div>
+      <h2 class="section-title">Tools of the <span>trade</span>.</h2>
+      <div class="divider"></div>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-group fade-up">
+        <div class="skill-group-icon sg-cyan">⚡</div>
+        <h3>Embedded & Hardware</h3>
+        <div class="skill-items">
+          <span class="skill-item core">ESP32-WROOM-32</span>
+          <span class="skill-item core">Arduino / PlatformIO</span>
+          <span class="skill-item core">Basys 3 FPGA</span>
+          <span class="skill-item core">Vivado (VHDL)</span>
+          <span class="skill-item">ESP-NOW</span>
+          <span class="skill-item">I²C · SPI · UART</span>
+          <span class="skill-item">LM35 · LM358</span>
+          <span class="skill-item">SSD1306 OLED</span>
+          <span class="skill-item">Matrix Keypads</span>
+          <span class="skill-item">MQTT (learning)</span>
+          <span class="skill-item">LoRaWAN (learning)</span>
+        </div>
+      </div>
+      <div class="skill-group fade-up delay-1">
+        <div class="skill-group-icon sg-purple">🤖</div>
+        <h3>AI / ML & Edge Intelligence</h3>
+        <div class="skill-items">
+          <span class="skill-item core">Python</span>
+          <span class="skill-item core">TensorFlow Lite</span>
+          <span class="skill-item core">Gemma 4 (Ollama)</span>
+          <span class="skill-item">Edge AI deployment</span>
+          <span class="skill-item">Anomaly Detection</span>
+          <span class="skill-item">ML Fundamentals</span>
+          <span class="skill-item">Kaggle</span>
+          <span class="skill-item">NumPy / Pandas</span>
+        </div>
+      </div>
+      <div class="skill-group fade-up delay-2">
+        <div class="skill-group-icon sg-green">🔐</div>
+        <h3>Systems & Security</h3>
+        <div class="skill-items">
+          <span class="skill-item core">C / C++</span>
+          <span class="skill-item core">mbedTLS</span>
+          <span class="skill-item core">AES-128-ECB</span>
+          <span class="skill-item">ChaCha20 (RFC 8439)</span>
+          <span class="skill-item">PKCS#7 Padding</span>
+          <span class="skill-item">Systems Architecture</span>
+          <span class="skill-item">Linux</span>
+          <span class="skill-item">Git</span>
+        </div>
+      </div>
+      <div class="skill-group fade-up">
+        <div class="skill-group-icon sg-purple">🌐</div>
+        <h3>Backend & Full Stack</h3>
+        <div class="skill-items">
+          <span class="skill-item core">FastAPI</span>
+          <span class="skill-item core">Flutter / Dart</span>
+          <span class="skill-item core">React</span>
+          <span class="skill-item">Firebase / Firestore</span>
+          <span class="skill-item">SQLite</span>
+          <span class="skill-item">REST APIs</span>
+          <span class="skill-item">Vite / TailwindCSS</span>
+          <span class="skill-item">GitHub Actions</span>
+        </div>
+      </div>
+      <div class="skill-group fade-up delay-1">
+        <div class="skill-group-icon sg-cyan">📡</div>
+        <h3>IoT Protocols & Networking</h3>
+        <div class="skill-items">
+          <span class="skill-item core">ESP-NOW</span>
+          <span class="skill-item">MQTT</span>
+          <span class="skill-item">LoRaWAN (learning)</span>
+          <span class="skill-item">TLS / MQTT-S</span>
+          <span class="skill-item">Mesh Networking</span>
+          <span class="skill-item">MAC-layer comms</span>
+          <span class="skill-item">P2P protocols</span>
+        </div>
+      </div>
+      <div class="skill-group fade-up delay-2">
+        <div class="skill-group-icon sg-green">🎯</div>
+        <h3>Focus Areas</h3>
+        <div class="skill-items">
+          <span class="skill-item core">AIoT Systems</span>
+          <span class="skill-item core">Edge Computing</span>
+          <span class="skill-item core">Embedded Security</span>
+          <span class="skill-item">Offline-first design</span>
+          <span class="skill-item">System benchmarking</span>
+          <span class="skill-item">Hardware–SW co-design</span>
+          <span class="skill-item">Technical writing</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ROADMAP -->
+<section id="roadmap">
+  <div class="container">
+    <div class="section-header fade-up">
+      <div class="section-eyebrow">// the plan</div>
+      <h2 class="section-title">Building toward <span>something</span>.</h2>
+      <div class="divider"></div>
+    </div>
+    <div class="roadmap-split">
+      <div class="fade-up">
+        <div class="timeline">
+          <div class="tl-item">
+            <div class="tl-dot active"></div>
+            <div class="tl-period">NOW — SUMMER 2026</div>
+            <div class="tl-title">Building the Flagship Project</div>
+            <div class="tl-desc">Designing a Secure AIoT Infrastructure System (ESP32 + LoRaWAN + FPGA edge + anomaly detection ML). Seeking embedded/IoT internship. Strengthening Python/ML fundamentals.</div>
+            <div class="tl-items">
+              <span class="tl-tag">Flagship AIoT project</span>
+              <span class="tl-tag">LoRaWAN / MQTT</span>
+              <span class="tl-tag">Internship search</span>
+            </div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-dot"></div>
+            <div class="tl-period">5th SEM — AUG–DEC 2026</div>
+            <div class="tl-title">System Design & Internship</div>
+            <div class="tl-desc">Full-time on flagship project + internship. Complete system architecture + security threat model document. Hardware setup with 3+ IoT nodes.</div>
+            <div class="tl-items">
+              <span class="tl-tag">Embedded internship</span>
+              <span class="tl-tag">System design doc</span>
+              <span class="tl-tag">Hardware prototype</span>
+            </div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-dot"></div>
+            <div class="tl-period">6th SEM — JAN–MAY 2027</div>
+            <div class="tl-title">Prototype + Publication</div>
+            <div class="tl-desc">Build working IoT network with ML component. Write conference paper / IEEE workshop submission. Begin SOP drafts and university shortlisting.</div>
+            <div class="tl-items">
+              <span class="tl-tag">TensorFlow Lite deployment</span>
+              <span class="tl-tag">Paper submission</span>
+              <span class="tl-tag">SOP draft</span>
+            </div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-dot"></div>
+            <div class="tl-period">7th SEM — AUG–DEC 2027</div>
+            <div class="tl-title">MS Applications</div>
+            <div class="tl-desc">Apply to MS programs (Fall 2028 intake). IELTS ≥7.0 completed. LORs from project guide + internship supervisor. Finalize portfolio and LinkedIn.</div>
+            <div class="tl-items">
+              <span class="tl-tag">IELTS ≥7.0</span>
+              <span class="tl-tag">MS applications</span>
+              <span class="tl-tag">LORs collected</span>
+            </div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-dot"></div>
+            <div class="tl-period">8th SEM — JAN–MAY 2028</div>
+            <div class="tl-title">Graduation & MS Admission</div>
+            <div class="tl-desc">Complete B.Tech. Capstone project delivery. Transition planning.</div>
+            <div class="tl-items">
+              <span class="tl-tag">B.Tech graduation</span>
+              <span class="tl-tag">Capstone project</span>
+              <span class="tl-tag">What's next</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container">
+    <div class="contact-inner fade-up">
+      <div class="section-eyebrow" style="text-align:center">// get in touch</div>
+      <h2 class="section-title">Let's build something<br><span>intelligent</span>.</h2>
+      <p class="section-sub" style="margin:0 auto 40px">
+        Open to conversations about embedded AI, edge systems, AIoT research, and internship opportunities. Recruiters, researchers, collaborators — reach out.
+      </p>
+      <div class="contact-links">
+        <a href="mailto:Sphoorthi340@gmail.com" class="contact-link">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+          Sphoorthi340@gmail.com
+        </a>
+        <a href="https://www.linkedin.com/in/shashank-sphoorthi/" target="_blank" class="contact-link">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+          LinkedIn
+        </a>
+        <a href="https://github.com/sphoorthi340-bit" target="_blank" class="contact-link">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+          @sphoorthi340-bit
+        </a>
+      </div>
+      <div class="contact-note">// open to internship opportunities · summer 2026 · embedded AI / IoT systems</div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>Built by <span>Shashank Sphoorthi</span> · Vasavi College of Engineering, Hyderabad · Class of <span>2028</span></p>
+  <p style="margin-top:6px;font-size:10px;color:#374151">"Build at the edge. Reason at the edge. Stay offline-first."</p>
+</footer>
+
+<script>
+// NAV SCROLL
+window.addEventListener('scroll',()=>{
+  document.getElementById('navbar').classList.toggle('scrolled',window.scrollY>40)
+})
+
+// TYPEWRITER
+const phrases=[
+  'Building AI that runs offline.',
+  'Embedded Systems + Edge AI.',
+  'Securing IoT from the hardware up.',
+  'ESP32. FPGA. LoRaWAN. Mesh.',
+]
+let pi=0,ci=0,deleting=false,el=document.getElementById('typed-text')
+function type(){
+  let phrase=phrases[pi]
+  if(!deleting){
+    el.textContent=phrase.slice(0,ci+1)
+    ci++
+    if(ci===phrase.length){setTimeout(()=>{deleting=true;setTimeout(type,80)},2200);return}
+    setTimeout(type,65)
+  }else{
+    el.textContent=phrase.slice(0,ci-1)
+    ci--
+    if(ci===0){deleting=false;pi=(pi+1)%phrases.length;setTimeout(type,400);return}
+    setTimeout(type,35)
+  }
+}
+setTimeout(type,800)
+
+// CANVAS PARTICLE MESH
+const canvas=document.getElementById('hero-canvas')
+const ctx=canvas.getContext('2d')
+let W,H,particles=[]
+function resize(){W=canvas.width=window.innerWidth;H=canvas.height=window.innerHeight}
+resize();window.addEventListener('resize',()=>{resize();init()})
+class Particle{
+  constructor(){this.reset()}
+  reset(){
+    this.x=Math.random()*W
+    this.y=Math.random()*H
+    this.vx=(Math.random()-.5)*.3
+    this.vy=(Math.random()-.5)*.3
+    this.r=Math.random()*1.5+.5
+  }
+  update(){
+    this.x+=this.vx;this.y+=this.vy
+    if(this.x<0||this.x>W)this.vx*=-1
+    if(this.y<0||this.y>H)this.vy*=-1
+  }
+  draw(){
+    ctx.beginPath()
+    ctx.arc(this.x,this.y,this.r,0,Math.PI*2)
+    ctx.fillStyle='rgba(0,200,255,0.5)'
+    ctx.fill()
+  }
+}
+function init(){particles=[];for(let i=0;i<80;i++)particles.push(new Particle())}
+function drawLines(){
+  for(let i=0;i<particles.length;i++){
+    for(let j=i+1;j<particles.length;j++){
+      let dx=particles[i].x-particles[j].x,dy=particles[i].y-particles[j].y
+      let dist=Math.sqrt(dx*dx+dy*dy)
+      if(dist<140){
+        ctx.beginPath()
+        ctx.moveTo(particles[i].x,particles[i].y)
+        ctx.lineTo(particles[j].x,particles[j].y)
+        ctx.strokeStyle=`rgba(0,200,255,${(1-dist/140)*.12})`
+        ctx.lineWidth=.6
+        ctx.stroke()
+      }
+    }
+  }
+}
+function animate(){
+  ctx.clearRect(0,0,W,H)
+  particles.forEach(p=>{p.update();p.draw()})
+  drawLines()
+  requestAnimationFrame(animate)
+}
+init();animate()
+
+// INTERSECTION OBSERVER — fade-up
+const obs=new IntersectionObserver((entries)=>{
+  entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible')})
+},{threshold:.1})
+document.querySelectorAll('.fade-up').forEach(el=>obs.observe(el))
+</script>
+</body>
+</html>
